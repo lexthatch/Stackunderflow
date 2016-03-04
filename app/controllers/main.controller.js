@@ -71,5 +71,17 @@
                     
                     ]
                 }
+                
+                //Asign the following variables.
+                var questionText = question.text;
+                var questionAnswerCount = question.answers.length;
+                var question2ndAnswerScore = question.answers[1].score;
+                var question2nd Answer1stCommentFlagged = question.answers[1].comments[0].flagged;
+                
+                var hasAnAcceptedAnswer 
+                for (var index = 0; index < question.answers.length; index++) {
+                    if (question.answers[i].accepted === true)
+                    
+                }
     }
     })();
