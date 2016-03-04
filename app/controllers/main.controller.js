@@ -32,7 +32,7 @@
                         {
                             text: "That's not right sir...",
                             author: "Jimmy Jow",
-                            flagged: false,
+                            flagged: false
                         }
                     ]
                 }, {
@@ -50,6 +50,23 @@
                             text: "Why so cheap on the details bub? How about how we create it not wshat it is.",,
                             author: "Lou-Lou",
                             flagged: false,
+                        },{
+                            text: "@ken didi you know you can edit.",,
+                            author: "Smart @$$",
+                            flagged: false
+                        }
+                    ]
+                }, {
+                    text:"An immediately-invoked function expression (or IIFE, pronounced "iffy") is a JavaScript design pattern which produces a lexical scope using JavaScript's function scoping. Dur "
+                    author: "The last brain cell left in this forum"
+                    date: new Date(),
+                    score: 10,
+                    accepted: false
+                    comments: [
+                        {
+                            text: "Poifect",
+                            author: "K-bob",
+                            flagged: true
                         }
                     
                     ]
