@@ -80,7 +80,9 @@
                 
                 var hasAnAcceptedAnswer 
                 for (var index = 0; index < question.answers.length; index++) {
-                    if (question.answers[i].accepted === true)
+                    if (question.answers[i].accepted){
+                        hasAnAcceptedAnswer = true;
+                    }
                     
                 }
     }
