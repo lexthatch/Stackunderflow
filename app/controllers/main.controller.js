@@ -78,13 +78,13 @@
                 var question2ndAnswerScore = question.answers[1].score;
                 var question2nd Answer1stCommentFlagged = question.answers[1].comments[0].flagged;
                 //add up total score of all `answers`
-                var questionScoreCount =
+                var questionScoreCount = question.answers[].score.length;
                 //return all the `flagged` `comments`
-                var questionFlaggedTrueCount =
+                var questionFlaggedTrueCount = question.answers.comments.flagged[true];
                 //count total number of `comments`
-                var questionCommentCount =
+                var questionCommentCount = question.answers.comments.length;
                 //check to see if `question` has `tag` `javascript` 
-                var questionTagsJavascript =
+                var questionTagsJavascript = question.tags["javascript"] 
                 //bonus: create a function that accepts a `tag` and checks to see if `question` has that `tag`
 
                 var hasAnAcceptedAnswer 
