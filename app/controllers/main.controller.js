@@ -72,6 +72,8 @@
                     ]
                 }
                 
+                $scope.question 
+                
                 //Asign the following variables.
                 var questionText = question.text;
                 var questionAnswerCount = question.answers.length;
