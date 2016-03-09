@@ -5,4 +5,4 @@ angular.module('app').directive('questionAnswer',function(){
     return{
         templateUrl: 'app/views/answer.html'
     }
-})
+});
